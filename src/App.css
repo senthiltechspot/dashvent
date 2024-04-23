@@ -1,0 +1,24 @@
+.parent {
+  border: 7px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+
+.parent.highlighted {
+  border-color: brown;
+}
+
+.child {
+  border: 3px solid black;
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.child.highlighted {
+  border-color: brown;
+}
+
+.children {
+  margin-left: 20px;
+}
